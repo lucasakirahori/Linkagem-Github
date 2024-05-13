@@ -1,8 +1,8 @@
 
 > # PRINCIPAIS COMANDOS
 ## CRIAR REPOSITÓRIO
-- 1° Criar o repositório no GitHub; <br>
-- 2° No terminal do VSCODE usar os comandos abaixo: <br>
+> 1° Criar o repositório no GitHub; <br>
+> 2° No terminal do VSCODE usar os comandos abaixo: <br>
 `echo "# [nome-do-repositorio]" >> README.md` <br>
 `git init` <br>
 `git add .`  /Sobe todos os arquivos <br>
