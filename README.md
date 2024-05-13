@@ -6,11 +6,10 @@
 * `git remote add origin https://github.com/[usuario]/[nome-repositorio].git`
 * `git push -u origin main`
 
-
-
-
-
-
+# Inputar em Repositório existente
+* `git remote add origin https://github.com/[usuario]/[nome-repositorio].git`
+* `git branch -M main`
+* `git push -u origin main`
 
 # TODOS OS COMANDOS
 
