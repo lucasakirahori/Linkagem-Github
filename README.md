@@ -1,15 +1,13 @@
-# git remote add origin https://github.com/lucasakirahori/TESTE.git
-# git branch -M main
-# git push -u origin main
+# 
 
 
-* # Criação de Projetos
+* ## Criação de Projetos
 
 `git init` /Inicializa um repositório Git local
 
 `git clone ssh://git@github.com/[usuario]/[nome-repositorio].git` /Cria uma cópia local de um repositório remoto
 
-* # Básicos
+* ## Básicos
 
 `git status` /Checa o status
 
@@ -21,7 +19,7 @@
 
 `git rm -r [nome-arquivo.txt]` /Remove um arquivo (ou pasta)
 
-* # Branching & Merging
+* ## Branching & Merging
 
 `git branch` /Lista as branches (o asterisco denota a branch atual)
 
@@ -51,7 +49,7 @@
 
 `git stash clear`	/Remove todas as entradas 'stash'
 
-* # Sharing & Updating Projects
+* ## Sharing & Updating Projects
 
 `git push origin [nome da branch]`	/Enviar uma branch para seu repositório remoto
 
@@ -69,7 +67,7 @@
 
 `git remote set-url origin ssh://git@github.com/[usuario]/[nome-repositorio].git`	/Seta um repositório da origin branch para o SSH
 
-* # Inspeção & Comparação
+* ## Inspeção & Comparação
 
 `git log`	/Ver modificações
 
