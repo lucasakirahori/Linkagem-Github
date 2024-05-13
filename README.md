@@ -35,12 +35,12 @@ ALTERNATIVO: git config user.email "[email.com]"
 
 * ## Criação de Projetos
 
-`git init` > Inicializa um repositório Git local <br>
-`git clone ssh://git@github.com/[usuario]/[nome-repositorio].git` > Cria uma cópia na máquina de um repositório remoto
+|`git init` | Inicializa um repositório Git local <br>
+|`git clone ssh://git@github.com/[usuario]/[nome-repositorio].git` | Cria uma cópia na máquina de um repositório remoto
 
 * ## Básicos
 
->`git status` /Checa o status <br>
+`git status` /Checa o status <br>
 `git add [nome-arquivo.txt]` /Adiciona um arquivo para área de stage <br>
 `git add .` /Adiciona todos os arquivos novos ou modificados para a área de stage <br>
 `git commit -m "[Mensagem de Commit]"` /Comita as alterações <br>
@@ -48,7 +48,7 @@ ALTERNATIVO: git config user.email "[email.com]"
 
 * ## Branching & Merging
 
->`git branch` /Lista as branches (o asterisco denota a branch atual) <br>
+`git branch` /Lista as branches (o asterisco denota a branch atual) <br>
 `git branch -a` /Lista todas as branches (local e remoto) <br>
 `git branch [nome da branch]`	/Cria uma nova branch <br>
 `git branch -d [nome da branch]`	/Deleta uma branch <br>
@@ -65,7 +65,7 @@ ALTERNATIVO: git config user.email "[email.com]"
 
 * ## Sharing & Updating Projects
 
->`git push origin [nome da branch]`	/Enviar uma branch para seu repositório remoto <br>
+`git push origin [nome da branch]`	/Enviar uma branch para seu repositório remoto <br>
 `git push -u origin [nome da branch]`	/Envia as alterações da branch informada para um repositório remoto (and selecionar a branch) <br>
 `git push`	/Envia as alterações para o repositório remoto (branch atual) <br>
 `git push origin --delete [nome da branch]`	/Deletar uma branch remota <br>
@@ -76,6 +76,6 @@ ALTERNATIVO: git config user.email "[email.com]"
 
 * ## Inspeção & Comparação
 
->`git log`	/Ver modificações <br>
+`git log`	/Ver modificações <br>
 `git log --summary`	/Ver modificações (detalhadas) <br>
 `git diff [branch original] [branch alvo]`	/Visualizar alterações antes de mesclar
