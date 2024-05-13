@@ -35,8 +35,8 @@ ALTERNATIVO: git config user.email "[email.com]"
 
 * ## Criação de Projetos
 
-`git init` >/Inicializa um repositório Git local <br>
-`git clone ssh://git@github.com/[usuario]/[nome-repositorio].git` >/Cria uma cópia na máquina de um repositório remoto
+`git init` > Inicializa um repositório Git local <br>
+`git clone ssh://git@github.com/[usuario]/[nome-repositorio].git` > Cria uma cópia na máquina de um repositório remoto
 
 * ## Básicos
 
