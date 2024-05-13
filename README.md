@@ -1,3 +1,4 @@
+```
 # Criar repositório 
 * `git init`
 * `git add README.md`
@@ -10,6 +11,8 @@
 * `git remote add origin https://github.com/[usuario]/[nome-repositorio].git`
 * `git branch -M main`
 * `git push -u origin main`
+
+```
 
 # TODOS OS COMANDOS
 
