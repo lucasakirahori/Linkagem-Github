@@ -1,35 +1,33 @@
 
 > # PRINCIPAIS COMANDOS
-```
 CRIAR REPOSITÓRIO
-1° Criar o repositório no GitHub;
-2° No terminal do VSCODE usar os comandos abaixo:
-echo "# [nome-do-repositorio]" >> README.md
-git init
-git add .  /Sobe todos os arquivos
-git commit -m "[Mensagem de Commit]"
-git branch -M [nome-da-branch]
-git remote add origin [https://github.com/[usuario]/[nome-repositorio].git]
-git push -u origin [nome-da-branch]
+- 1° Criar o repositório no GitHub;
+- 2° No terminal do VSCODE usar os comandos abaixo:
+`echo "# [nome-do-repositorio]" >> README.md`
+`git init`
+`git add .`  /Sobe todos os arquivos
+`git commit -m "[Mensagem de Commit]"`
+`git branch -M [nome-da-branch]`
+`git remote add origin [https://github.com/[usuario]/[nome-repositorio].git]`
+`git push -u origin [nome-da-branch]`
 
 IMPUTAR EM REPOSITÓRIO EXISTENTE
-git add .
-git commit -m "[Mensagem de Commit]"
-git branch -M [nome-da-branch]
-git push -u origin [nome-da-branch]
+`git add .`
+`git commit -m "[Mensagem de Commit]"`
+`git branch -M [nome-da-branch]`
+`git push -u origin [nome-da-branch]`
 
 CLONAR DO GITHUB PARA O ARQUIVO LOCAL
-git clone ssh://git@github.com/[usuario]/[nome-repositorio].git
+`git clone ssh://git@github.com/[usuario]/[nome-repositorio].git`
 
 PARA ATUALIZAR DO GITHUB PARA A MÁQUINA
-git pull origin [nome-da-branch]
+`git pull origin [nome-da-branch]`
 
 ALTERNATIVO: git remote -v  /verifica se houve a linkagem
 ALTERNATIVO: git add README.md
 ALTERNATIVO: git config user.name "[nome]"
 ALTERNATIVO: git config user.email "[email.com]"
 
-```
 
 > # OUTROS COMANDOS
 
