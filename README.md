@@ -1,5 +1,18 @@
-# 
+# Criar repositório 
+* `git init`
+* `git add README.md`
+* `git commit -m "Mensagem de Commit"`
+* `git branch -M main`
+* `git remote add origin https://github.com/[usuario]/[nome-repositorio].git`
+* `git push -u origin main`
 
+
+
+
+
+
+
+# TODOS OS COMANDOS
 
 * ## Criação de Projetos
 
