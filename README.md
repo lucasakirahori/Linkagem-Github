@@ -3,7 +3,7 @@
 # git push -u origin main
 
 
-# *Criação de Projetos
+# Criação de Projetos
 
 `git init` /Inicializa um repositório Git local
 
