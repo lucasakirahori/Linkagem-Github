@@ -10,7 +10,7 @@
 
 # Básicos
 
-`git status` /Checa o status
+`git status` /Checa o status.
 `git add [nome-arquivo.txt]` /Adiciona um arquivo para área de stage
 `git add -A` /Adiciona todos os arquivos novos ou modificados para a área de stage
 `git commit -m "[Mensagem de Commit]"` /Comita as alterações
