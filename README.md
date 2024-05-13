@@ -3,11 +3,11 @@
 # git push -u origin main
 
 
-# * Criação de Projetos
+* # Criação de Projetos
 
-`git init` /## Inicializa um repositório Git local
+`git init` /Inicializa um repositório Git local
 
-`git clone ssh://git@github.com/[usuario]/[nome-repositorio].git` /## Cria uma cópia local de um repositório remoto
+`git clone ssh://git@github.com/[usuario]/[nome-repositorio].git` /Cria uma cópia local de um repositório remoto
 
 # Básicos
 
