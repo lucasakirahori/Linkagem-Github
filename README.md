@@ -1,28 +1,43 @@
 
 > # PRINCIPAIS COMANDOS
 ```
-CRIAR REPOSITÓRIO 
+CRIAR REPOSITÓRIO
+1° Criar o repositório no GitHub;
+2° No terminal do VSCODE usar os comandos abaixo:
+echo "# [nome-do-repositorio]" >> README.md
 git init
-git add README.md
-git commit -m "Mensagem de Commit"
-git branch -M main
-git remote add origin https://github.com/[usuario]/[nome-repositorio].git
-git push -u origin main
+git add .  /Sobe todos os arquivos
+git commit -m "[Mensagem de Commit]"
+git branch -M [nome-da-branch]
+git remote add origin [https://github.com/[usuario]/[nome-repositorio].git]
+git push -u origin [nome-da-branch]
 
 IMPUTAR EM REPOSITÓRIO EXISTENTE
-git remote add origin https://github.com/[usuario]/[nome-repositorio].git
-git branch -M main
-git push -u origin main
+git add .
+git commit -m "[Mensagem de Commit]"
+git branch -M [nome-da-branch]
+git push -u origin [nome-da-branch]
+
+CLONAR DO GITHUB PARA O ARQUIVO LOCAL
+git clone ssh://git@github.com/[usuario]/[nome-repositorio].git
+
+PARA ATUALIZAR DO GITHUB PARA A MÁQUINA
+git pull origin [nome-da-branch]
+
+ALTERNATIVO: git remote -v  /verifica se houve a linkagem
+ALTERNATIVO: git add README.md
+ALTERNATIVO: git config user.name "[nome]"
+ALTERNATIVO: git config user.email "[email.com]"
 
 ```
 
-> # TODOS OS COMANDOS
+> # OUTROS COMANDOS
 
 * ## Criação de Projetos
 
 `git init` /Inicializa um repositório Git local
 
-`git clone ssh://git@github.com/[usuario]/[nome-repositorio].git` /Cria uma cópia local de um repositório remoto
+`git clone ssh://git@github.com/[usuario]/[nome-repositorio].git` /Cria uma cópia na máquina de um repositório remoto
 
 * ## Básicos
 
@@ -30,7 +45,7 @@ git push -u origin main
 
 `git add [nome-arquivo.txt]` /Adiciona um arquivo para área de stage
 
-`git add -A` /Adiciona todos os arquivos novos ou modificados para a área de stage
+`git add .` /Adiciona todos os arquivos novos ou modificados para a área de stage
 
 `git commit -m "[Mensagem de Commit]"` /Comita as alterações
 
@@ -76,7 +91,7 @@ git push -u origin main
 
 `git push origin --delete [nome da branch]`	/Deletar uma branch remota
 
-`git pull`	/Atualiza o repositório local para o último commit
+`git pull`	/Atualiza o repositório da máquina com o último commit
 
 `git pull origin [nome da branch]`	/Recebe alterações do repositório remoto
 
