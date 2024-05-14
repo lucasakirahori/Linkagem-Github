@@ -1,6 +1,5 @@
-
-> # PRINCIPAIS COMANDOS
-## CRIAR REPOSITÓRIO
+# PRINCIPAIS COMANDOS
+### CRIAR REPOSITÓRIO
 >1° Criar o repositório no GitHub; <br>
 2° No terminal do VSCODE usar os comandos abaixo: <br>
 `echo "# [nome-do-repositorio]" >> README.md` <br>
@@ -11,7 +10,7 @@
 `git remote add origin [https://github.com/[usuario]/[nome-repositorio].git]` <br>
 `git push -u origin [nome-da-branch]`
 
-## IMPUTAR EM REPOSITÓRIO EXISTENTE
+### IMPUTAR EM REPOSITÓRIO EXISTENTE
 
 >`git add .` <br>
 `git commit -m "[Mensagem de Commit]"` <br>
@@ -19,16 +18,17 @@
 `git push -u origin [nome-da-branch]` <br>
 
 
-## CLONAR DO GITHUB PARA O ARQUIVO LOCAL
+### CLONAR DO GITHUB PARA O ARQUIVO LOCAL
 >`git clone ssh://git@github.com/[usuario]/[nome-repositorio].git`
 
-## PARA ATUALIZAR DO GITHUB PARA A MÁQUINA
+### PARA ATUALIZAR DO GITHUB PARA A MÁQUINA
 >`git pull origin [nome-da-branch]`
 
->ALTERNATIVO: git remote -v  /verifica se houve a linkagem <br>
-ALTERNATIVO: git add README.md <br>
-ALTERNATIVO: git config user.name "[nome]" <br>
-ALTERNATIVO: git config user.email "[email.com]"
+### ALTERNATIVOS
+>`git remote -v`  /verifica se houve a linkagem <br>
+`git add README.md` <br>
+`git config user.name "[nome]"` <br>
+`git config user.email "[email.com]"`
 
 
 # OUTROS COMANDOS
