@@ -1,5 +1,5 @@
 <details>
-<summary># PRINCIPAIS COMANDOS</summary>
+<summary> # PRINCIPAIS COMANDOS</summary>
   
 ### CRIAR REPOSITÓRIO
 1° Criar o repositório no GitHub; <br>
