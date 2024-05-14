@@ -34,14 +34,14 @@ ALTERNATIVO: git config user.email "[email.com]"
 > # OUTROS COMANDOS
 
 * ## Criação de Projetos
-
 | Comando | Descrição |
 | --- | --- |
 | `git init` | Inicializa um repositório Git local | <br>
 | `git clone ssh://git@github.com/[usuario]/[nome-repositorio].git` | Cria uma cópia na máquina de um repositório remoto |
 
 * ## Básicos
-
+| Comando | Descrição |
+| --- | --- |
 `git status` /Checa o status <br>
 `git add [nome-arquivo.txt]` /Adiciona um arquivo para área de stage <br>
 `git add .` /Adiciona todos os arquivos novos ou modificados para a área de stage <br>
