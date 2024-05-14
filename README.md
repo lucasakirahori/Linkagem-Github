@@ -12,7 +12,7 @@
 `git remote add origin [https://github.com/[usuario]/[nome-repositorio].git]` <br>
 `git push -u origin [nome-da-branch]`
 
-### IMPUTAR EM REPOSITÓRIO EXISTENTE
+### INPUTAR EM REPOSITÓRIO EXISTENTE
 
 `git add .` <br>
 `git commit -m "[Mensagem de Commit]"` <br>
