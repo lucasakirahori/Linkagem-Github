@@ -69,17 +69,18 @@ ALTERNATIVO: git config user.email "[email.com]"
 * ## Sharing & Updating Projects
 | Comando | Descrição |
 | --- | --- |
-`git push origin [nome da branch]`	| Enviar uma branch para seu repositório remoto <br>
-`git push -u origin [nome da branch]`	| Envia as alterações da branch informada para um repositório remoto (and selecionar a branch) <br>
-`git push`	| Envia as alterações para o repositório remoto (branch atual) <br>
-`git push origin --delete [nome da branch]`	| Deletar uma branch remota <br>
-`git pull`	| Atualiza o repositório da máquina com o último commit <br>
-`git pull origin [nome da branch]`	| Recebe alterações do repositório remoto <br>
-`git remote add origin ssh://git@github.com/[usuario]/[nome-repositorio].git`	| Adicionar um repositório remoto <br>
+`git push origin [nome da branch]`	| Enviar uma branch para seu repositório remoto
+`git push -u origin [nome da branch]`	| Envia as alterações da branch informada para um repositório remoto (and selecionar a branch)
+`git push`	| Envia as alterações para o repositório remoto (branch atual)
+`git push origin --delete [nome da branch]`	| Deletar uma branch remota
+`git pull`	| Atualiza o repositório da máquina com o último commit
+`git pull origin [nome da branch]`	| Recebe alterações do repositório remoto
+`git remote add origin ssh://git@github.com/[usuario]/[nome-repositorio].git`	| Adicionar um repositório remoto
 `git remote set-url origin ssh://git@github.com/[usuario]/[nome-repositorio].git`	| Seta um repositório da origin branch para o SSH
 
 * ## Inspeção & Comparação
-
-`git log`	/Ver modificações <br>
-`git log --summary`	/Ver modificações (detalhadas) <br>
-`git diff [branch original] [branch alvo]`	/Visualizar alterações antes de mesclar
+| Comando | Descrição |
+| --- | --- |
+`git log`	| Ver modificações
+`git log --summary`	| Ver modificações (detalhadas)
+`git diff [branch original] [branch alvo]`	| Visualizar alterações antes de mesclar
