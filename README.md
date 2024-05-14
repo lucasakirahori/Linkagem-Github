@@ -1,5 +1,5 @@
 <details>
-<summary> # PRINCIPAIS COMANDOS</summary>
+<summary>PRINCIPAIS COMANDOS</summary>
   
 ### CRIAR REPOSITÓRIO
 1° Criar o repositório no GitHub; <br>
@@ -33,7 +33,8 @@
 `git config user.email "[email.com]"`
 </details>
 
-# OUTROS COMANDOS
+<details>
+<summary>OUTROS COMANDOS</summary>
 
 ### Criação de Projetos
 | Comando | Descrição |
@@ -86,3 +87,5 @@
 `git log`	| Ver modificações
 `git log --summary`	| Ver modificações (detalhadas)
 `git diff [branch original] [branch alvo]`	| Visualizar alterações antes de mesclar
+
+</details>
