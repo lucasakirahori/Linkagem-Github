@@ -31,9 +31,9 @@ ALTERNATIVO: git config user.name "[nome]" <br>
 ALTERNATIVO: git config user.email "[email.com]"
 
 
-> # OUTROS COMANDOS
+# OUTROS COMANDOS
 
-* ### Criação de Projetos
+>* ### Criação de Projetos
 | Comando | Descrição |
 | --- | --- |
 `git init` | Inicializa um repositório Git local
