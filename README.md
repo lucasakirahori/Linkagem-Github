@@ -23,7 +23,7 @@
 ### CLONAR DO GITHUB PARA O ARQUIVO LOCAL
 `git clone ssh://git@github.com/[usuario]/[nome-repositorio].git`
 
-### PARA ATUALIZAR DO GITHUB PARA A MÁQUINA
+### PARA ATUALIZAR DO GITHUB PARA O ARQUIVO LOCAL
 `git pull origin [nome-da-branch]`
 
 ### ALTERNATIVOS
