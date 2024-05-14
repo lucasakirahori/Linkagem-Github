@@ -40,7 +40,7 @@ ALTERNATIVO: git config user.email "[email.com]"
 | `git clone ssh://git@github.com/[usuario]/[nome-repositorio].git` | Cria uma cópia na máquina de um repositório remoto |
 
 * ## Básicos
-| Comando | Descrição |
+
 | --- | --- |
 `git status` | Checa o status <br>
 `git add [nome-arquivo.txt]` | Adiciona um arquivo para área de stage <br>
