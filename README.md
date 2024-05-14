@@ -42,11 +42,11 @@ ALTERNATIVO: git config user.email "[email.com]"
 * ## Básicos
 | Comando | Descrição |
 | --- | --- |
-`git status` /Checa o status <br>
-`git add [nome-arquivo.txt]` /Adiciona um arquivo para área de stage <br>
-`git add .` /Adiciona todos os arquivos novos ou modificados para a área de stage <br>
-`git commit -m "[Mensagem de Commit]"` /Comita as alterações <br>
-`git rm -r [nome-arquivo.txt]` /Remove um arquivo (ou pasta)
+`git status` | Checa o status <br>
+`git add [nome-arquivo.txt]` | Adiciona um arquivo para área de stage <br>
+`git add .` | Adiciona todos os arquivos novos ou modificados para a área de stage <br>
+`git commit -m "[Mensagem de Commit]"` | Comita as alterações <br>
+`git rm -r [nome-arquivo.txt]` | Remove um arquivo (ou pasta)
 
 * ## Branching & Merging
 
