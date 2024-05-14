@@ -67,15 +67,16 @@ ALTERNATIVO: git config user.email "[email.com]"
 `git stash clear`	| Remove todas as entradas 'stash'
 
 * ## Sharing & Updating Projects
-
-`git push origin [nome da branch]`	/Enviar uma branch para seu repositório remoto <br>
-`git push -u origin [nome da branch]`	/Envia as alterações da branch informada para um repositório remoto (and selecionar a branch) <br>
-`git push`	/Envia as alterações para o repositório remoto (branch atual) <br>
-`git push origin --delete [nome da branch]`	/Deletar uma branch remota <br>
-`git pull`	/Atualiza o repositório da máquina com o último commit <br>
-`git pull origin [nome da branch]`	/Recebe alterações do repositório remoto <br>
-`git remote add origin ssh://git@github.com/[usuario]/[nome-repositorio].git`	/Adicionar um repositório remoto <br>
-`git remote set-url origin ssh://git@github.com/[usuario]/[nome-repositorio].git`	/Seta um repositório da origin branch para o SSH
+| Comando | Descrição |
+| --- | --- |
+`git push origin [nome da branch]`	| Enviar uma branch para seu repositório remoto <br>
+`git push -u origin [nome da branch]`	| Envia as alterações da branch informada para um repositório remoto (and selecionar a branch) <br>
+`git push`	| Envia as alterações para o repositório remoto (branch atual) <br>
+`git push origin --delete [nome da branch]`	| Deletar uma branch remota <br>
+`git pull`	| Atualiza o repositório da máquina com o último commit <br>
+`git pull origin [nome da branch]`	| Recebe alterações do repositório remoto <br>
+`git remote add origin ssh://git@github.com/[usuario]/[nome-repositorio].git`	| Adicionar um repositório remoto <br>
+`git remote set-url origin ssh://git@github.com/[usuario]/[nome-repositorio].git`	| Seta um repositório da origin branch para o SSH
 
 * ## Inspeção & Comparação
 
