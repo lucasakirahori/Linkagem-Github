@@ -10,7 +10,7 @@
 `git commit -m "[Mensagem de Commit]"` <br>
 `git branch -M [nome-da-branch]` <br>
 `git remote add origin [https://github.com/[usuario]/[nome-repositorio].git]` <br>
-`git push -u origin [nome-da-branch]` Este é usado somente como PRIMEIRO commit
+`git push -u origin [nome-da-branch]` Este é usado somente como PRIMEIRO commit, nos próximos usar `git push origin [nome da branch]`
 
 ### INPUTAR EM REPOSITÓRIO EXISTENTE
 
