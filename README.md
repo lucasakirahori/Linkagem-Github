@@ -26,6 +26,11 @@
 ### PARA ATUALIZAR DO GITHUB PARA O ARQUIVO LOCAL
 `git pull origin [nome-da-branch]`
 
+### A CADA ALTERAÇÃO FEITA NOS ARQUIVOS USAR
+`git add .` ou `git add [especificar arquivos]`
+`git commit -m [mensagem]`
+``git push origin [nome da branch]`
+
 ### ALTERNATIVOS
 `git remote -v`  /verifica se houve a linkagem <br>
 `git add README.md` <br>
