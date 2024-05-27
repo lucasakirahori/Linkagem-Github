@@ -15,7 +15,7 @@
 ### INPUTAR EM REPOSITÓRIO EXISTENTE
 
 `git add .` <br>
-`git commit -m "[Mensagem de Commit]"` <br>
+`git commit -m "Mensagem de Commit"` <br>
 `git branch -M [nome-da-branch]` <br>
 `git push -u origin [nome-da-branch]` <br>
 
@@ -28,7 +28,7 @@
 
 ### A CADA ALTERAÇÃO FEITA NOS ARQUIVOS USAR
 `git add .` ou `git add [especificar arquivos]` <br>
-`git commit -m [mensagem]` <br>
+`git commit -m "mensagem"` <br>
 `git push origin [nome da branch]`
 
 ### ALTERNATIVOS
